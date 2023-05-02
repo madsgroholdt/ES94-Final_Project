@@ -7,13 +7,13 @@ library(stringr)
 library(texreg)
 library(fixest)
 #EDIT THIS LINE TO WHERE THE REPO WAS CLONED
-path = "/Volumes/GoogleDrive/My Drive/Sophomore Spring/ES 94/Final Project/ES94-Final_Project"
+path = "/Volumes/GoogleDrive/My Drive/Sophomore Spring/ES 94/Final Project"
 
 data = read.csv(
   paste(path, "/data/VC_deals_exported.csv", sep = '')
 )
 
-source(paste(path,"/general_functions.R", sep = ''))
+source(paste(path,"/ES94-Final_Project/general_functions.R", sep = ''))
 
 data = dataclean_initial(data)
 
